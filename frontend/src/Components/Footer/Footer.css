@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.Footer-container {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(248, 249, 250);
+
+  padding: 10px 15px;
+  gap: 15px;
+}
+.SmartCart-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.SmartCart-logo > p {
+  color: rgb(138, 138, 138);
+  font-weight: 520;
+}
+.SmartCart-logo > img {
+  height: 45px;
+}
+.details {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.details > p{
+  color: rgb(85,85,85) ;
+
+}
+.details > p:hover{
+  color: rgb(16, 16, 16);
+  cursor: default;
+}
+.social-media {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.social-media > img:hover{
+  transform: scale(1.1);
+  transition: 0.5s;
+
+}
+.CopyRight {
+  display: flex;
+  justify-content: center;
+}
+.CopyRight > p {
+  font-size: 13px;
+}
+.CopyRight > p{
+  color: rgb(107, 92, 92);
+}

@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.Nav {
+  height: 10vh;
+  box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.2);;
+  background-color: rgb(248, 249, 250);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px 30px;
+}
+.App-logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+}
+.Navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  width: 46%;
+  padding: 0 5px;
+}
+.Nav-Link {
+  text-decoration: none;
+  font-size: 17px;
+  color: black;
+  cursor: pointer;
+}
+
+.Nav-Link:hover {
+  color: #3d8bd8;
+  border-bottom: 2px solid #3d8bd8;
+}
+ul > li:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+.Auth {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Signin-btn {
+  background-color: rgb(26, 188, 157);
+  color: white;
+  height: 28px;
+  width: 62px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 20px;
+}
+.Signin-btn:hover {
+  background-color: rgb(19, 120, 120);
+  transition: background-color 0.5s;
+}
+.Cart {
+  height: 30px;
+}
+.Cart:hover{
+    transform: translateY(-4px); 
+    transition: 0.5s;
+}
+.count {
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  color: white;
+}
