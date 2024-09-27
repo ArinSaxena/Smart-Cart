@@ -1,0 +1,39 @@
+.Offers-section{
+    height: 60vh;
+    background-image: linear-gradient(white, pink);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 140px;
+    overflow: hidden;
+}
+.Offers-left{
+    flex: 1;
+
+
+
+}
+.Offers-left h1{
+    font-size:80px;
+
+}
+.Offers-left p{
+    font-size: 24px;
+}
+.Offers-left button{
+    height: 6vh;
+    width: 13vw;
+    border-radius: 25px;
+    border: none;
+   font-size: 18px;
+   background-color: red;
+   margin-top: 15px;
+
+}
+.Offers-right{
+    width: 40%;
+    display: flex;
+    align-items: flex-start;
+}
+.exc-image{
+margin-bottom: 50px;
+}

@@ -1,7 +1,8 @@
 import "./Items.css"
 
-const Items = ({ itemInfo }) => {
+const Items = ({ itemInfo}) => {
   return (
+    <>
     <div className="item">
       <img src={itemInfo.image} alt={itemInfo.name} className="item-image" />
       <h3>{itemInfo.name}</h3>
@@ -12,6 +13,9 @@ const Items = ({ itemInfo }) => {
 
       </div>
     </div>
+
+    
+    </>
   );
 };
 

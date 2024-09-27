@@ -3,16 +3,13 @@
   margin: 0;
   box-sizing: border-box;
 }
-.image {
-  /* width: 60%; */
-  display: flex;
-  justify-content: flex-end;
-}
-.hero-img {
+.hero-section {
+  height: 100vh;
   display: flex;
   flex: 1;
   justify-content: end;
   background-image: linear-gradient(white, pink);
+  
 }
 .hero-left {
   display: flex;
@@ -40,6 +37,18 @@
   justify-content: flex-start;
   align-items: flex-end;
 }
-.handimg{
+.hand img{
     height: 0px;
+}
+
+.hero-right {
+  width: 45%;
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 70px;
+
+}
+.hero-right img{
+  height: 100%;
+  padding-bottom: px;
 }

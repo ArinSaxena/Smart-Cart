@@ -1,8 +1,8 @@
-import cartIcon from "../Assets/logo.png";
+import cartIcon from "../Assets/footer/logo.png";
 import "./Footer.css";
-import InstaIcon from "../Assets/instagram_icon.png";
-import PinterestIcon from "../Assets/pinterest_icon.png";
-import WhatsappIcon from "../Assets/whatsapp.png";
+import InstaIcon from "../Assets/footer/instagram_icon.png";
+import PinterestIcon from "../Assets//footer/pinterest_icon.png";
+import WhatsappIcon from "../Assets/footer/whatsapp.png";
 
 
 const Footer = () => {

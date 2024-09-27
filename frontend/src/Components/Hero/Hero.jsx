@@ -4,10 +4,10 @@ import handIcon from "../Assets/hand_icon.png"
 import "./Hero.css";
 const Hero = () => {
   return (
-    <div className="hero-img">
+    <div className="hero-section">
       <div className="hero-left">
         <div className="hand">
-            <img className="handimg"src={handIcon} alt="Handicon" />
+            <img src={handIcon} alt="Handicon" />
           <p className="coll-info">new </p>
         </div>
         <div>
@@ -18,8 +18,8 @@ const Hero = () => {
           Latest Collection <img src={Arrow} alt="" />
         </button>
       </div>
-      <div className="image">
-        <img className="image" src={hero} alt="herrImage" />
+      <div className="hero-right">
+        <img src={hero} alt="herrImage" />
       </div>
     </div>
   );

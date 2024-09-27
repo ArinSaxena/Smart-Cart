@@ -1,9 +1,9 @@
-import p1_img from "../Assets/w_trending_p_1.png";
-import p2_img from "../Assets/w_trending_p_2.png";
-import p3_img from "../Assets/w_trending_p_3.png";
-import p4_img from "../Assets/w_trending_p_4.png";
+import p1_img from "../Assets/trending/w_trending_p_1.png";
+import p2_img from "../Assets/trending/w_trending_p_2.png";
+import p3_img from "../Assets/trending/w_trending_p_3.png";
+import p4_img from "../Assets/trending/w_trending_p_4.png";
 
-const data_trending_product = [
+const data_trending_product_women = [
   {
     id: 1,
     name: "Stylish Blue jacket",
@@ -38,4 +38,4 @@ const data_trending_product = [
   },
 ];
 
-export {data_trending_product};
+export {data_trending_product_women};

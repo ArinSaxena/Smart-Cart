@@ -4,23 +4,28 @@
     box-sizing: border-box;
 }
 .item{
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    height: 460px;
+    width: 340px;
     border-radius: 4px;
     overflow: hidden;
     text-align: center;
     padding: 10px;
     background-color: #fff;
+    padding: 7px;
 }
 .item:hover{
-    transform:scale(1.05);
+    transform: translateY(-10px);
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     transition: 0.5s;
 }
 .item-image{
-    width: 100%;
-    height: auto;
+    width: 95%;
+    height: 85%;
+    object-fit: contain;
+    /* object-fit: cover; */
     border-bottom: 1px solid #ddd;
-    margin-bottom: 16px;
+    margin-bottom: 12px;
     
 }
 .item h3{
