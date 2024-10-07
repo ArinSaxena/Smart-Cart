@@ -3,50 +3,53 @@
     padding: 0;
     box-sizing: border-box;
 }
-.itemAll{
-    /* border: 1px solid black; */
-    height: 460px;
-    width: 340px;
+.item{
+    border: 1px solid #ccc;
+    height: 350px;
+    width: 210px;
     border-radius: 4px;
     overflow: hidden;
     text-align: center;
     padding: 10px;
     background-color: #fff;
     padding: 7px;
+
 }
-.itemAll:hover{
+.item:hover{
     transform: translateY(-10px);
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     transition: 0.5s;
     cursor: pointer;
+
 }
-.itemAll-image{
+.item-image{
     width: 95%;
-    height: 85%;
+    height: 60%;
     object-fit: contain;
-    /* object-fit: cover; */
     border-bottom: 1px solid #ddd;
-    margin-bottom: 12px;
+    margin-bottom: 5px;
     
 }
-.itemAll h3{
+.item h3{
     font-size: 18px;
     color: #333;
     margin-bottom: 8px;
 }
 
-.priceAll {
+.price {
     display: flex;
     justify-content: center;
     gap: 10px;
-    font-size: 16px;
+    font-size: 26px;
 }
-.new-priceAll {
+.new-price {
+    font-size: large;
     color: #ff4141;
     font-weight: bold;
 }
 
-.old-priceAll {
+.old-price {
+    font-size: large;
     color: #999;
     text-decoration: line-through;
 }

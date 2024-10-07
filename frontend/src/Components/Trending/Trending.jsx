@@ -3,8 +3,7 @@ import { data_trending_product_women } from "../Assets/data_trending_product_wom
 import Item from "../Items/Items";
 import { data_trending_product_men } from "../Assets/data_trending_product_men";
 import { data_trending_product_kid } from "../Assets/data_trending_product_kid";
-import {New_collection} from "../Assets/New_collection";
-
+ 
 
 const Trending = () => {
   return (

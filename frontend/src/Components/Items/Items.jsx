@@ -1,20 +1,21 @@
-import "./Items.css"
+import "./Items.css";
 
-const Items = ({ itemInfo}) => {
+const Items = ({ itemInfo }) => {
+  console.log(itemInfo.image);
   return (
     <>
-    <div className="item">
-      <img src={itemInfo.image} alt={itemInfo.name} className="item-image" />
-      <h3>{itemInfo.name}</h3>
-      <div className="price">
-
-        <div className="old-price">₹{itemInfo.old_cost}</div>
-        <div className="new-price">₹{itemInfo.new_cost}</div>
-
-      </div>
-    </div>
-
-    
+        <div className="itemAll">
+          <img
+            src={itemInfo.image}
+            alt={itemInfo.name}
+            className="item-imageAll"
+          />
+          <h3>{itemInfo.name}</h3>
+          <div className="priceAll">
+            <div className="old-priceAll">₹{itemInfo.old_cost}</div>
+            <div className="new-priceAll">₹{itemInfo.new_cost}</div>
+          </div>
+        </div>
     </>
   );
 };

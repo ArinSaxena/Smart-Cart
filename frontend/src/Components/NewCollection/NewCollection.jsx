@@ -2,7 +2,7 @@ import { New_collection } from "../Assets/New_collection";
 import "./NewCollection.css";
 import Item from "../Items/Items";
 
-const NewCollection = (itemInfo) => {
+const NewCollection = () => {
   return (
     <div className="trending">
       <h1>New Collection</h1>
