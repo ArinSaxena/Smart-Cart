@@ -14,7 +14,7 @@ const data_trending_product_kid = [
     old_cost: 780.5,
   },
   {
-    id: 1,
+    id: 2,
     name: "Stylish Blue jacket",
     description:
       "This is a description of the product. It is a very good product. You should buy it.",
@@ -23,7 +23,7 @@ const data_trending_product_kid = [
     old_cost: 780.5,
   },
   {
-    id: 1,
+    id: 3,
     name: "Stylish Blue jacket",
     description:
       "This is a description of the product. It is a very good product. You should buy it.",
@@ -32,7 +32,7 @@ const data_trending_product_kid = [
     old_cost: 780.5,
   },
   {
-    id: 1,
+    id: 4,
     name: "Stylish Blue jacket",
     description:
       "This is a description of the product. It is a very good product. You should buy it.",

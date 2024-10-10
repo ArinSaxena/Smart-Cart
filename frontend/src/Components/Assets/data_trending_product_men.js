@@ -5,7 +5,7 @@ import p4_img from "../Assets/trending/m_trending_p_3.png";
 
 const data_trending_product_men = [
   {
-    id: 1,
+    id: 5,
     name: "Stylish Blue jacket",
     description:
       "This is a description of the product. It is a very good product. You should buy it.",
@@ -14,7 +14,7 @@ const data_trending_product_men = [
     old_cost: 780.5,
   },
   {
-    id: 1,
+    id: 6,
     name: "Stylish Blue jacket",
     description:
       "This is a description of the product. It is a very good product. You should buy it.",
@@ -23,7 +23,7 @@ const data_trending_product_men = [
     old_cost: 780.5,
   },
   {
-    id: 1,
+    id: 7,
     name: "Stylish Blue jacket",
     description:
       "This is a description of the product. It is a very good product. You should buy it.",
@@ -32,7 +32,7 @@ const data_trending_product_men = [
     old_cost: 780.5,
   },
   {
-    id: 1,
+    id: 8,
     name: "Stylish Blue jacket",
     description:
       "This is a description of the product. It is a very good product. You should buy it.",
